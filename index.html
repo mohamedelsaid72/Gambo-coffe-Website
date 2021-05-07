@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/150c3bb804.js" crossorigin="anonymous"></script>
+
+    <!-- link style -->
+    <link rel="stylesheet" href="./style/styl.css">
+    <title>Gambo</title>
+</head>
+
+<body>
+    <header id="home">
+        <div class="top d-none d-lg-block d-md-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12 order">
+                        <span>Book Now</span>
+                        <span>Order Online</span>
+                        <span>07:30 am - 11:00 pm</span>
+                    </div>
+                    <div class="col-md-6 social d-none d-lg-block d-md-block">
+                        <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                        <span><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                        <span><i class="fa fa-pinterest" aria-hidden="true"></i></span>
+                        <span><i class="fa fa-google" aria-hidden="true"></i></span>
+                        <span><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container navbar">
+            <a href="#" class="logo">Gambo</a>
+            <div class="toggle" onclick="toggleMenu()"><i class="fas fa-stream"></i></div>
+            <ul class="menu">
+                <li><a onclick="toggleMenu()" class="active" href="#home">Home</a></li>
+                <li><a onclick="toggleMenu()" href="#about">About</a></li>
+                <li><a onclick="toggleMenu()" href="#reservation">reservation</a></li>
+                <li><a onclick="toggleMenu()" href="#menu-sec">menu</a></li>
+                <li><a onclick="toggleMenu()" href="#events">event</a></li>
+                <li><a onclick="toggleMenu()" href="#team">team</a></li>
+                <li><a onclick="toggleMenu()" href="#blogs">blogs</a></li>
+                <li><a onclick="toggleMenu()" href="#contact">contact</a></li>
+                <li><i class="fa fa-search" aria-hidden="true"></i></li>
+                <li class="bars d-lg-none" onclick="toggleMenu()"><i class="fas fa-stream"></i></li>
+            </ul>
+        </div>
+        <div class="container content">
+            <img width="100px"
+                src="./images/kisspng-coffee-cup-tea-cafe-coffee-5a6fd9e6189eb3.0039759915172797181009.png" alt="">
+            <h1>COFFE IS ALWAYS A GOOD IDEA</h1>
+            <p>LIFE BEGIN AFTER COFFE</p>
+            <a href="#">RESERVE NOW</a>
+        </div>
+        <div class="up">
+            <a href="#home"><i class="fas fa-level-up-alt"></i></a>
+        </div>
+    </header>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mt-4 mb-4">
+                    <h1>About Us</h1>
+                    <h3>WELCOME TO CAMBA</h3>
+                </div>
+                <div class="col-md-6">
+                    <h6>"Coffee is a way of stealing time that should by rights belong to your older self."</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore e u Ulenia w minion sepebende il vent</p>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt sed ut
+                        perspiciatis unde omnis iste anus escu sit voluptatem accusantium doloremque laudan lain sem
+                        wedi aperam, eaque ipsa quae ab illo inventore veritatis. Excepteur cat cupidatat non proident,
+                        sunt in culpa qui officia deserunt ved ut perspiciatis unde omnis iste natus.</p>
+                    <p><span></span> Exoplucat cupidatat non proident, sunt in culpa al cupidatal.</p>
+                    <p><span></span> Excepteur cat cupidatat non proident, sunt in culpa cat cupidatat non proident.</p>
+                    <p><span></span> Excepteur cat cupidatat non proident, sunt in culpa qui officia cat cupidatat non
+                    </p>
+                    <a href="#">READ MORE</a>
+                    <a href="#">PURCHASE NOW</a>
+                </div>
+                <div class="col-md-6">
+                    <img class="d-none d-md-block d-lg-block" width="100%" src="./images/rowimg.PNG" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reservation" class="book">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mt-4 mb-4">
+                    <h1>Reservation</h1>
+                    <h3>BOOK YOUR TABLE</h3>
+                </div>
+                <div class="col-md-12">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="tel" class="form-control" id="inputPassword4" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="number" class="form-control" id="inputPassword4"
+                                    placeholder="Number of people">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="date" class="form-control" id="inputEmail4" placeholder="Date">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="time" class="form-control" id="inputPassword4" placeholder="Time">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-12 text-center m-4">
+                                <button type="submit" class="btn">RESERVATION NOW</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="special">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mt-4 mb-4">
+                    <h1>Special Coffee</h1>
+                    <h3>OUR COFFEE TYPE FOR YOU</h3>
+                    <button class="btn shadow p-2 bg-white rounded"><i class="fas fa-mug-hot"></i> Hot Coffee</button>
+                    <button class="btn shadow-sm p-2 bg-white rounded border"><i class="fas fa-coffee"></i> Cold
+                        Coffee</button>
+                </div>
+                <div class="col-md-4">
+                    <h4>Latte</h4>
+                    <p>2/3 COFFEE<br>1/3 MILK</p>
+                    <p>Maiores necessitatibus nostrum aliquid laboriosam similique reprehenderit vel</p>
+                    <a href="">Read More <i class="fas fa-arrow-alt-circle-right"></i></a>
+                    <h4>Americano</h4>
+                    <p>1/3 EXPRESSO<br>2/3 WATER</p>
+                </div>
+                <div class="col-md-4">
+                    <img width="100%"
+                        src="./images/kisspng-turkish-coffee-juice-cafe-iced-coffee-splash-of-coffee-5a8199b76c8f40.8483594315184429354447.png"
+                        alt="">
+                </div>
+                <div class="col-md-4">
+                    <h4>Black</h4>
+                    <p>1 CUP OF COFFEE<br>NOT SUGAR</p>
+                    <p>Maiores necessitatibus nostrum aliquid laboriosam similique reprehenderit vel</p>
+                    <a href="">Read More <i class="fas fa-arrow-alt-circle-right"></i></a>
+                    <h4>Moccha</h4>
+                    <p>1/2 EXPRESSO<br>2/3 STEAM MILK<br>CHOCOLATE</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="enjoy">
+        <img width="300px" src="./images/cheff.png" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="text">
+                        <h1>enjoy great Coffee</h1>
+                        <p>SEE HOW WE PUT 140 YEAR OF HOASTING EXPERIENCE INTO EVERY CUP</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="menu-sec" class="menu-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mt-4 mb-4">
+                    <h1>Menu Today</h1>
+                    <h3>OUR SPECIAL MENU</h3>
+                </div>
+                <div class="col-md-8 text-center">
+                    <img width="100%" src="./images/cup.PNG" alt="">
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <table class="table table-responsive-sm table-borderless">
+                        <thead>
+                            <tr class="border-bottom">
+                                <th scope="col">Coffee</th>
+                                <th scope="col">Small</th>
+                                <th scope="col">Medium</th>
+                                <th scope="col">Large</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">
+                                    <img width="50px" height="50px"
+                                        src="./images/—Pngtree—coffee with coffee beans_4092550.png" alt="">
+                                    <p><span>Regular Coffee</span><br>Coffee latte with vanila</p>
+                                </th>
+                                <td><sup>$</sup>20.00</td>
+                                <td><sup>$</sup>30.00</td>
+                                <td><sup>$</sup>40.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <img width="50px" height="50px" src="./images/mug_coffee_PNG16825.png" alt="">
+                                    <p><span>Americano</span><br>Coffee latte with vanila</p>
+                                </th>
+                                <td><sup>$</sup>20.00</td>
+                                <td><sup>$</sup>30.00</td>
+                                <td><sup>$</sup>40.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <img width="50px" height="50px"
+                                        src="./images/kisspng-white-coffee-caffè-americano-doppio-tea-5a68326180d7d4.9545145415167780815278.png"
+                                        alt="">
+                                    <p><span>Cappuccino</span><br>Coffee latte with vanila</p>
+                                </th>
+                                <td><sup>$</sup>20.00</td>
+                                <td><sup>$</sup>30.00</td>
+                                <td><sup>$</sup>40.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <img width="50px" height="50px" src="./images/mug.png" alt="">
+                                    <p><span>Vanila Latte</span><br>Coffee latte with vanila</p>
+                                </th>
+                                <td><sup>$</sup>20.00</td>
+                                <td><sup>$</sup>30.00</td>
+                                <td><sup>$</sup>40.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <table class="table table-responsive-sm table-borderless">
+                        <thead>
+                            <tr class="border-bottom">
+                                <th scope="col">Tea</th>
+                                <th scope="col">Small</th>
+                                <th scope="col">Medium</th>
+                                <th scope="col">Large</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">
+                                    <img width="50px" height="50px"
+                                        src="./images/5a1d25fa6cdaa4.9766083015118597064459.png" alt="">
+                                    <p><span>Regular Coffee</span><br>Coffee latte with vanila</p>
+                                </th>
+                                <td><sup>$</sup>20.00</td>
+                                <td><sup>$</sup>30.00</td>
+                                <td><sup>$</sup>40.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <img width="50px" height="50px"
+                                        src="./images/kisspng-turkish-coffee-juice-cafe-iced-coffee-splash-of-coffee-5a8199b76c8f40.8483594315184429354447.png"
+                                        alt="">
+                                    <p><span>Regular Coffee</span><br>Coffee latte with vanila</p>
+                                </th>
+                                <td><sup>$</sup>20.00</td>
+                                <td><sup>$</sup>30.00</td>
+                                <td><sup>$</sup>40.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <img width="50px" height="50px"
+                                        src="./images/kisspng-white-coffee-caffè-americano-doppio-tea-5a68326180d7d4.9545145415167780815278.png"
+                                        alt="">
+                                    <p><span>Regular Coffee</span><br>Coffee latte with vanila</p>
+                                </th>
+                                <td><sup>$</sup>20.00</td>
+                                <td><sup>$</sup>30.00</td>
+                                <td><sup>$</sup>40.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <img width="50px" height="50px" src="./images/mug1.png" alt="">
+                                    <p><span>Regular Coffee</span><br>Coffee latte with vanila</p>
+                                </th>
+                                <td><sup>$</sup>20.00</td>
+                                <td><sup>$</sup>30.00</td>
+                                <td><sup>$</sup>40.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="events" class="events">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mt-4 mb-4">
+                    <h1>Events</h1>
+                    <h3>UPCOMING EVENT</h3>
+                </div>
+                <div class="col-md-6">
+                    <h4>Engoy A Free Coffee & Tea Cup</h4>
+                    <p>Tuesday 15/12/15,6:00am</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nulla nam optio tempora
+                        necessitatibus recusandae minima deleniti.</p>
+                    <div class="date">
+                        <h1>18</h1>
+                        <h1>08</h1>
+                        <h1>28</h1>
+                    </div>
+                    <button type="submit" class="btn m-4">RESERVATION NOW</button>
+                </div>
+                <div class="col-md-6">
+                    <img class="imgafter" height="100%" src="./images/row2.PNG" alt="">
+                    <div class="aft"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team" class="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mt-4 mb-4">
+                    <h1>Our Team</h1>
+                    <h3>MEET OUR TEAM</h3>
+                </div>
+                <div class="col-md-4"><img width="100%" src="./images/firstPerson.PNG" alt=""></div>
+                <div class="col-md-4"><img width="100%" src="./images/secondPerson.PNG" alt=""></div>
+                <div class="col-md-4"><img width="100%" src="./images/thirdPerson.png" alt=""></div>
+            </div>
+
+        </div>
+    </section>
+    <section class="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mt-4 mb-5">
+                    <h1>Testimonials</h1>
+                    <h3>OUR HAPPY CUSTOMER</h3>
+                </div>
+                <img class="d-none d-lg-block d-md-block" width="130px" height="130px"
+                    src="./images/david_culler165_0.jpg" alt="">
+                <div class="col-md-12">
+                    <div class="text">
+                        <p><span>Howard K.Stern</span><br>Fiot SG_Korean</p>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page nomao when looking at its layout. <br> The point of using Ipsum is that it has a
+                            more-or-less normal distribution of letters.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blogs" class="blogs">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12 mt-4 mb-4">
+                    <h1>Blogs</h1>
+                    <h3>UPDATE TODAY</h3>
+                </div>
+                <div class="col-md-6">
+                    <img width="100%" src="./images/271.PNG" alt="">
+                    <h5>Fish Tales sells all sorts of fresh fish.</h5>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa quifficia runt sed ut perspiciatis
+                        unde omnis iste natus error sit voluptatem accusantium eaque ipsa quae ab illo inventore
+                        veritatis et. Excepteur sint occaecat datat non proident, sunt in culpa perspiciatis unde omnis
+                        iste natus error perspiciatis
+                    </p>
+                    <a href="">Read More <i class="fas fa-arrow-alt-circle-right"></i></a>
+                </div>
+                <div class="col-md-6">
+                    <img width="100%" src="./images/272.PNG" alt="">
+                    <h5>Fish Tales sells all sorts of fresh fish.</h5>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa quifficia runt sed ut perspiciatis
+                        unde omnis iste natus error sit voluptatem accusantium eaque ipsa quae ab illo inventore
+                        veritatis et. Excepteur sint occaecat datat non proident, sunt in culpa perspiciatis unde omnis
+                        iste natus error perspiciatis
+                    </p>
+                    <a href="">Read More <i class="fas fa-arrow-alt-circle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mt-4 mb-4">
+                    <h1>gambo</h1>
+                </div>
+                <div class="col-md-3">
+                    <h6>CONTACT US</h6>
+                    <p><i class="fas fa-map-marker-alt"></i> 132,My Street,Kingston,New York</p>
+                    <p><i class="fas fa-phone-alt"></i> 270-188-6026</p>
+                    <p><i class="far fa-envelope"></i> hello@exapmle.com</p>
+                </div>
+                <div class="col-md-3">
+                    <h6>OUR SERVICE</h6>
+                    <p>Social media monitoring</p>
+                    <p>Web & App solution</p>
+                    <p>Creative process</p>
+                    <p>Software Development</p>
+                </div>
+                <div class="col-md-3">
+                    <h6>TWITTER WIDGET</h6>
+                    <p>Looking for awesome PSD template?<br>Find it here http//tf.net/gamba</p>
+                    <p>You need an image stock<br>Find it here http//tf.net/gamba</p>
+                </div>
+                <div class="col-md-3">
+                    <h6>GALLERY</h6>
+                    <img width="100%" src="./images/bg/coffee-cup-wooden-table-dark-background.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <p><i class="far fa-copyright"></i> DESIGNED BY CAMBA</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                    <span><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                    <span><i class="fa fa-pinterest" aria-hidden="true"></i></span>
+                    <span><i class="fa fa-google" aria-hidden="true"></i></span>
+                    <span><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function () {
+            var homeHeight = document.querySelector('header');
+            var up = document.querySelector('.up');
+            up.classList.toggle('upShow', window.scrollY > homeHeight.offsetHeight);
+        })
+
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
